@@ -1,0 +1,19 @@
+
+<<<<<<<<<<<<<<<<<<<SERVER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$ python -m SimpleHTTPServer
+  Serve current directory tree at http://$HOSTNAME:8000/ 
+
+<<<<<<<<<<<<<<<<<<<COMMANDS FEATURES>>>>>>>>>>>>>>>>>>>>
+$ ctrl-x e
+  Rapidly invoke an editor to write a long, complex, or tricky command 
+  
+$ <space>command
+  Execute a command without saving it in the history 
+  
+<<<<<<<<<<<<<<<<<CRON ALTERNATIVE>>>>>>>>>>>>>>>>>>>>>>  
+$ echo "ls -l" | at midnight
+  Execute a command at a given time 
+
+<<<<<<<<<<<<<<<<<<FILE SHARING>>>>>>>>>>>>>>>>>>>>>>>>>
+$ sshfs name@server:/path/to/folder /path/to/mount/point
+  Mount folder/filesystem through SSH 
