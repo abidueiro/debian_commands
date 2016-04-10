@@ -17,3 +17,8 @@ $ echo "ls -l" | at midnight
 <<<<<<<<<<<<<<<<<<FILE SHARING>>>>>>>>>>>>>>>>>>>>>>>>>
 $ sshfs name@server:/path/to/folder /path/to/mount/point
   Mount folder/filesystem through SSH 
+
+<<<<<<<<<<<<<<<<<<PROCES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+$ pstree
+  shows process on tree layout
